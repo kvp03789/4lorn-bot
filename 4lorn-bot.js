@@ -1,5 +1,5 @@
 import { Client } from "discord.js"
-import {getFirestore } from 'firebase/firestore'
+// import {getFirestore } from 'firebase/firestore'
 require('dotenv').config()
 
 const client = new Client({ intents: [] })
