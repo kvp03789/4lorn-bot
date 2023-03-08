@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const config = require("./config.json")
+// const config = require("./config.json")
 // import {getFirestore } from 'firebase/firestore'
 require('dotenv').config()
 
