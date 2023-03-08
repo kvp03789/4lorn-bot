@@ -1,0 +1,1 @@
+worker: node 4lorn-bot.js
