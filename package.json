@@ -2,5 +2,24 @@
   "dependencies": {
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
-  }
+  },
+  "name": "4lorn",
+  "version": "1.0.0",
+  "main": "4lorn-bot.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 4lorn-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvp03789/4lorn-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvp03789/4lorn-bot/issues"
+  },
+  "homepage": "https://github.com/kvp03789/4lorn-bot#readme",
+  "description": ""
 }

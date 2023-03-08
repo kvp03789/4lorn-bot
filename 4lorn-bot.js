@@ -1,9 +1,9 @@
-import { Client } from "discord.js"
+const Discord = require("discord.js")
 // import {getFirestore } from 'firebase/firestore'
 require('dotenv').config()
 
-const client = new Client({ intents: [] })
-const db = getFirestore();
+const client = new Discord.Client({ intents: [] })
+// const db = getFirestore();
 
 
 const sadWords = ["sad", "depressed", "unhappy", "down"]
