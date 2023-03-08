@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const config = require("./config.json")
 // import {getFirestore } from 'firebase/firestore'
 require('dotenv').config()
 
@@ -108,7 +109,7 @@ client.on("message", msg => {
   
 })
 
-client.login(process.env.BOT_TOKEN)
+client.login(config.token)
 
 
 
